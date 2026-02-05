@@ -20,7 +20,7 @@ This project demonstrates how to transform raw network packet data (PCAP) into a
 ### 1. Data Ingestion
 The process started by exporting the PCAP file as a CSV from Wireshark. This CSV was then uploaded to the Splunk environment.
 
-![Data Ingestion](Screenshots/w2.png)
+![Data Ingestion](Splunk Image/W1.png)
 
 ### 2. Custom Field Extraction
 I used the **Delimiters** method in Splunk to define custom fields such as `src_ip`, `dest_ip`, `protocol`, and `length`, allowing for granular searching.
