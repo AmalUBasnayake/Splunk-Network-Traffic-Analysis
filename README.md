@@ -47,7 +47,7 @@ The final dashboard provides a real-time overview of the network traffic and sec
 ## 💡 **KEY INSIGHTS & ANALYSIS**
 
 ### 🚀 **HIGH TRAFFIC VOLUME**
-Identified **192.168.10.52** as the primary source of traffic within the network based on the analysis.
+Identified **ip** as the primary source of traffic within the network based on the analysis.
 
 ### 🌐 **PROTOCOL DISTRIBUTION**
 Significant usage of **TLSv1.3** and **TCP**, indicating heavy encrypted web-based activity.
