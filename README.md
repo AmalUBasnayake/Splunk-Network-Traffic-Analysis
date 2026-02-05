@@ -33,30 +33,31 @@ Using SPL queries, I created visualization panels to monitor network behavior.
 #### **🔍 Query for Top Source IPs:**
 ![Top Source IPs](Splunk%20Image/w6.png)
 
-```splunk
 index="main" | top limit=10 field3
 
-🖼️ Final SOC Dashboard
+---
+
+🖼️ FINAL SOC DASHBOARD
 The final dashboard provides a real-time overview of the network traffic and security events, helping to identify "Top Talkers" and protocol anomalies.
 
 ![Final Dashboard](Splunk%20Image/w9.png)
 
-💡 Key Insights & Analysis
+💡 KEY INSIGHTS & ANALYSIS
 
-🚀 High Traffic Volume
+🚀 HIGH TRAFFIC VOLUME
 Identified 192.168.10.52 as the primary source of traffic within the network based on the analysis.
 
-🌐 Protocol Distribution
+🌐 PROTOCOL DISTRIBUTION
 Significant usage of TLSv1.3 and TCP, indicating heavy encrypted web-based activity.
 
-🛡️ Network Hygiene
+🛡️ NETWORK HYGIENE
 Monitoring of ARP and DNS queries to ensure they match expected baseline network behavior.
 
-📂 Repository Structure
+📂 REPOSITORY STRUCTURE
 
 ├── Splunk Image/     # Contains all step-by-step process images
 └── README.md         # Full project documentation
 
-Summary: This project highlights my ability to use industry-standard SIEM tools to perform proactive security monitoring and data-driven threat analysis.
+SUMMARY: This project highlights my ability to use industry-standard SIEM tools to perform proactive security monitoring and data-driven threat analysis.
 
-Created by Amal | Passionate about Cybersecurity & Security Operations.
+CREATED BY AMAL | Passionate about Cybersecurity & Security Operations.
