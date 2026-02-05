@@ -31,25 +31,32 @@ I used the **Delimiters** method in Splunk to define custom fields such as `src_
 Using SPL queries, I created visualization panels to monitor network behavior.
 
 #### **🔍 Query for Top Source IPs:**
-
-![Field Extraction](Splunk%20Image/w6.png)
-
-![Field Extraction](Splunk%20Image/w9.png)
+![Top Source IPs](Splunk%20Image/w6.png)
 
 ```splunk
 index="main" | top limit=10 field3
 
-
-
-📊 Query for Protocol Distribution:
-Code snippet
-index="main" | stats count by field5
 🖼️ Final SOC Dashboard
-The final dashboard provides a real-time overview of the network traffic, helping to identify "Top Talkers" and protocol anomalies. The Dark Mode interface ensures high visibility for SOC analysts.
+The final dashboard provides a real-time overview of the network traffic and security events, helping to identify "Top Talkers" and protocol anomalies.
+
+![Final Dashboard](Splunk%20Image/w9.png)
 
 💡 Key Insights & Analysis
-🚀 High Traffic Volume: Identified 192.168.10.52 as the primary source of traffic within the network.
 
-🌐 Protocol Distribution: Significant usage of TLSv1.3 and TCP, indicating heavy encrypted web-based activity.
+🚀 High Traffic Volume
+Identified 192.168.10.52 as the primary source of traffic within the network based on the analysis.
 
-🛡️ Network Hygiene: Monitoring of ARP and DNS queries to ensure they match expected baseline network behavior.
+🌐 Protocol Distribution
+Significant usage of TLSv1.3 and TCP, indicating heavy encrypted web-based activity.
+
+🛡️ Network Hygiene
+Monitoring of ARP and DNS queries to ensure they match expected baseline network behavior.
+
+📂 Repository Structure
+
+├── Splunk Image/     # Contains all step-by-step process images
+└── README.md         # Full project documentation
+
+Summary: This project highlights my ability to use industry-standard SIEM tools to perform proactive security monitoring and data-driven threat analysis.
+
+Created by Amal | Passionate about Cybersecurity & Security Operations.
